@@ -20,6 +20,18 @@ git地址：https://github.com/xiyunanhai1028/uniapp-cli-project.git
 yarn
 ```
 
+### 3.eslint更加便捷
+
+> 在根目录下创建 .vscode/settings.json文件,这样在我们保存代码的时候就会自动格式化掉
+
+```json
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
+```
+
 ## 2.支持各种平台打包
 
 ### 2.1.微信小程序
