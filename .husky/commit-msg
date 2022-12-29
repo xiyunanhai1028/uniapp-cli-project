@@ -1,0 +1,11 @@
+###
+ # @Author: dfh
+ # @Date: 2022-12-29 15:14:01
+ # @LastEditors: dfh
+ # @Modified By: dfh
+ # @describe: 
+### 
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npx --no-install commitlint --edit $1
