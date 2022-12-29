@@ -8,7 +8,6 @@
 <script>
 export default {
   onLaunch: function () {
-    const a = 1
     console.log("App Launch")
   },
   onShow: function () {
