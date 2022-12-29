@@ -9,44 +9,55 @@
 
 > 为了多人开发的高效性，同时为了避免每个人`vscode`中代码格式的多样化，基于`uni/cli`搭建一套工程化脚手架
 
-## 1.支持各种平台打包
+## 项目使用说明
 
-### 1.1.微信小程序
+### 1.下载代码
+git地址：https://github.com/xiyunanhai1028/uniapp-cli-project.git
+
+### 2.安装依赖
+
+```shell
+yarn
+```
+
+## 2.支持各种平台打包
+
+### 2.1.微信小程序
 
 ```shell
 yarn build:mp-weixin
 yarn dev:mp-weixin
 ```
 
-### 1.2.支付宝小程序
+### 2.2.支付宝小程序
 
 ```shell
 yarn build:mp-alipay
 yarn dev:mp-alipay
 ```
 
-### 1.3.百度小程序
+### 2.3.百度小程序
 
 ```shell
 yarn build:mp-baidu
 yarn dev:mp-baidu
 ```
 
-### 1.4.字节跳动小程序
+### 2.4.字节跳动小程序
 
 ```shell
 yarn build:mp-toutiao
 yarn dev:mp-toutiao
 ```
 
-### 1.5.飞书小程序
+### 2.5.飞书小程序
 
 ```shell
 yarn build:mp-lark
 yarn dev:mp-lark
 ```
 
-### 1.6.QQ 小程序
+### 2.6.QQ 小程序
 
 ```shell
 yarn build:mp-qq
@@ -54,42 +65,42 @@ yarn dev:mp-qq
 ```
 
 
-### 1.7.快手小程序
+### 2.7.快手小程序
 
 ```shell
 yarn build:mp-kuaishou
 yarn dev:mp-kuaishou
 ```
 
-### 1.8.快应用(webview)
+### 2.8.快应用(webview)
 
 ```shell
 yarn build:quickapp-webview
 yarn dev:quickapp-webview
 ```
 
-### 1.9.快应用联盟
+### 2.9.快应用联盟
 
 ```shell
 yarn build:quickapp-webview-union
 yarn dev:quickapp-webview-union
 ```
 
-### 1.10.快应用华为
+### 2.10.快应用华为
 
 ```shell
 yarn build:quickapp-webview-huawei
 yarn dev:quickapp-webview-huawei
 ```
 
-### 1.11.360 小程序
+### 2.11.360 小程序
 
 ```shell
 yarn build:mp-360
 yarn dev:mp-360
 ```
 
-### 1.12.App 平台
+### 2.12.App 平台
 
 ```shell
 yarn build:app-plus
@@ -102,16 +113,16 @@ yarn build:app
 yarn dev:app
 ```
 
-### 1.13.H5
+### 2.13.H5
 
 ```shell
 yarn build:h5
 yarn dev:h5
 ```
 
-## 2.支持eslint + prettier校验
+## 3.支持eslint + prettier校验
 
-## 3.支持husky代码提交校验 
+## 4.支持husky代码提交校验 
 
 ### git提交规范
 
@@ -130,11 +141,11 @@ yarn dev:h5
 | test     | 测试用例修改                                           |
 
 
-## 4.支持部分类似`tailwindcss`功能
+## 5.支持部分类似`tailwindcss`功能
 
 > 基于scss的`each`实现部分类似于`tailwindcss`功能
 
-### 4.1.flex布局
+### 5.1.flex布局
 
 | 类名                          | 描述                              |
 | ----------------------------- | --------------------------------- |
@@ -148,7 +159,7 @@ yarn dev:h5
 | .jc-start，...其他类似        | justify-content:flex-start;       |
 | .ai-start，...其他类似        | align-items: flex-start;          |
 
-### 4.2.文字相关
+### 5.2.文字相关
 
 - 支持字体 ：12rpx ～ 48rpx；
 - 字体粗细：400 ～ 900;
@@ -161,7 +172,7 @@ yarn dev:h5
 | .txt-w-4            | font-weight: 400    |
 | .txt-w-5            | font-weight: 500    |
 
-### 4.3.边距
+### 5.3.边距
 
 - 支持内边距：4rpx-98rpx;
 - 支持外边距：4rpx-98rpx;
